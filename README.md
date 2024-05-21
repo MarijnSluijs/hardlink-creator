@@ -7,7 +7,9 @@ This script has 2 steps:
 
 When multiple files are chosen in step 1, all hardlinks will be placed at the location chosen in step 2.
 
-# How to use
-Run the executable file "HardlinkCreator.exe"
+## How to use
+Run the executable file "HardlinkCreator.exe".
+
 OR
-Run "python HardlinkCreator.py" in the terminal
+
+Run "python HardlinkCreator.py" in the terminal.
