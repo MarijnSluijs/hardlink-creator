@@ -53,10 +53,12 @@ if directory:
         # Loop over all folders
         for folder in original_folders[0]:
             mk_hardlink(folder, f"{location_of_hardlinks}\\{os.path.basename(folder)}")
+        
+        print("Done!")
 
     b1 = tkinter.Button(root, text='select directories...', command=get_directories)
     b1.pack()
-    print("Done!")
+    
 
     root.mainloop()
 
