@@ -56,6 +56,7 @@ if directory:
 
     b1 = tkinter.Button(root, text='select directories...', command=get_directories)
     b1.pack()
+    print("Done!")
 
     root.mainloop()
 

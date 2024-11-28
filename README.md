@@ -8,8 +8,17 @@ This script has 2 steps:
 When multiple files are chosen in step 1, all hardlinks will be placed at the location chosen in step 2.
 
 ## How to use
-Run the executable file "hardlink_creator.exe".
-
-OR
-
 Run "python hardlink_creator.py" in the terminal.
+
+OR 
+
+Click on the .bat file
+
+## Dependencies
+Python has to be installed, along with the following imports:
+- tkinter (pip install tk)
+- tkfilebrowser (pip install tkfilebrowser)
+
+These might also be needed:
+- pywin32 (pip install pywin32)
+- pypiwin32 (pip install pypiwin32)
